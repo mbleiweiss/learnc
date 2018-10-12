@@ -1,2 +1,2 @@
 # learnc
-blah blah
+This is me, brushing up on my C
