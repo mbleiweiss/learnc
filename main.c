@@ -1,8 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
+
+int mult ( int x, int y );
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+  int x;
+  int y;
+
+  printf( "Please input two numbers to be multiplied: " );
+  scanf( "%d", &x );
+  scanf( "%d", &y );
+  printf( "The product of your two numbers is %d\n", mult( x, y ) );
+  getchar();
+}
+
+int mult (int x, int y)
+{
+  return x * y;
 }
